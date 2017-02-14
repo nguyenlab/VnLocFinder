@@ -1,0 +1,6 @@
+- Motivation - 動機
+- Basic design
+- Question analysis - Natural Language Processing
+- Information sourcing 
+- Answer composition
+- Multi-language extensibility

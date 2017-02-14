@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="438.83344"
+   height="136.34555"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="qtree_jp.svg">
+  <metadata
+     id="metadata34">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs32" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="1148"
+     id="namedview30"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.132086"
+     inkscape:cx="162.19172"
+     inkscape:cy="68.542053"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3618" />
+  <text
+     style="font-size:16px;fill:#008000"
+     x="20.121412"
+     y="11.954697"
+     id="text4">JAISTで</text>
+  <text
+     style="font-size:16px;fill:#008000"
+     x="159.09377"
+     y="13.488"
+     id="text6">誰が</text>
+  <text
+     style="font-size:16px;fill:#008000"
+     x="242.42854"
+     y="18.13798"
+     id="text8">自然言語処理を勉強します</text>
+  <text
+     style="font-size:16px;fill:#0000ff"
+     x="-0.8984375"
+     y="76.686821"
+     id="text10">CONDITION</text>
+  <text
+     style="font-size:16px;fill:#0000ff"
+     x="106.9453"
+     y="76.686821"
+     id="text14">Q-EXPR-PERSON</text>
+  <text
+     style="font-size:16px;fill:#0000ff"
+     x="313.04126"
+     y="77.570145"
+     id="text18">TOPIC</text>
+  <text
+     style="font-size:16px;fill:#0000ff"
+     x="149.55489"
+     y="136.11899"
+     id="text22">ROOT</text>
+  <line
+     style="stroke:#000000;stroke-width:1"
+     x1="56.051491"
+     y1="83.936203"
+     x2="172.0515"
+     y2="119.93621"
+     id="line24" />
+  <line
+     style="stroke:#000000;stroke-width:1"
+     x1="172.0515"
+     y1="83.936203"
+     x2="172.0515"
+     y2="119.93621"
+     id="line26" />
+  <line
+     style="stroke:#000000;stroke-width:1.20857668"
+     x1="336.51129"
+     y1="83.109016"
+     x2="172.05792"
+     y2="119.88007"
+     id="line28" />
+  <g
+     id="g3618"
+     transform="translate(173.76015,187.77882)">
+    <polygon
+       id="polygon3598"
+       points="135,137 265,101 395,137 "
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       transform="matrix(0.77917939,0,0,-1.0016649,-42.806548,-25.051596)" />
+    <polygon
+       id="polygon3602"
+       points="454,101 482,137 427,137 "
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       transform="matrix(1,0,0,-1,-582.11126,-27.321236)" />
+    <polygon
+       id="polygon3602-8"
+       points="482,137 427,137 454,101 "
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       transform="matrix(0.5607377,0,0,-1.0113216,-255.67324,-24.171006)" />
+  </g>
+</svg>

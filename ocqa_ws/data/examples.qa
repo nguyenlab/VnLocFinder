@@ -1,0 +1,158 @@
+Is there any sushi restaurant near JAIST?
+(ROOT (Q_EXPR_EXIST Is there) (QUANTIFIER any) (TOPIC sushi restaurant) (CONDITION near JAIST))
+
+Is there any cheap supermarket around JAIST?
+(ROOT (Q_EXPR_EXIST Is there) (QUANTIFIER any) (TOPIC cheap supermarket) (CONDITION around JAIST))
+
+Where I can find a good restaurant in Nomi city?
+(ROOT (Q_EXPR_PLACE Where I can find) (QUANTIFIER a good) (TOPIC restaurant) (CONDITION in Nomi city))
+
+What is the best restaurant in Kanazawa?
+(ROOT (Q_EXPR_THING What is) (QUANTIFIER the best) (TOPIC restaurant) (CONDITION in Kanazawa))
+
+Is there any good restaurant around here?
+(ROOT (Q_EXPR_EXIST Is there) (QUANTIFIER any good) (TOPIC restaurant) (CONDITION around here))
+
+Is there a nice restaurant around Komatsu?
+(ROOT (Q_EXPR_EXIST Is there) (QUANTIFIER a nice) (TOPIC restaurant) (CONDITION around Komatsu))
+
+Are there any soba restaurants around Komatsu?
+(ROOT (Q_EXPR_EXIST Are there) (QUANTIFIER any) (TOPIC soba restaurants) (CONDITION around Komatsu))
+
+Do you know about ramen restaurants around JAIST?
+(ROOT (Q_EXPR_EXIST Do you know about) (TOPIC ramen restaurants) (CONDITION around JAIST))
+
+What is the closest indian restaurant to JAIST?
+(ROOT (Q_EXPR_THING What is) (QUANTIFIER the closest) (TOPIC indian restaurant) (CONDITION to JAIST))
+
+Which is the best place to eat beef in Kanazawa?
+(ROOT (Q_EXPR_THING Which is) (QUANTIFIER the best) (TOPIC place to eat beef) (CONDITION in Kanazawa))
+
+Which place has the best sushi in Yokohama?
+(ROOT (Q_EXPR_PLACE Which place) (NOCLS has) (QUANTIFIER the best) (TOPIC sushi) (CONDITION in Yokohama))
+
+What is the closest supermarket from here?
+(ROOT (Q_EXPR_THING What is) (QUANTIFIER the closest) (TOPIC supermarket) (CONDITION from here))
+
+Who is the president of JAIST?
+(ROOT (Q_EXPR_PERSON Who is) (TOPIC the president of JAIST))
+
+Who is the vice-president of JAIST?
+(ROOT (Q_EXPR_PERSON Who is) (TOPIC the vice-president of JAIST))
+
+Where am I located?
+(ROOT (Q_EXPR_PLACE Where) (TOPIC am I located))
+
+How much it costs to travel from here to Tokyo?
+(ROOT (Q_EXPR_QUANT How much) (Q_EXPR_MONEY it costs) (TOPIC to travel) (CONDITION from here to Tokyo))
+
+What professors in JAIST work with information security?
+(ROOT (Q_EXPR_PERSON What) (TOPIC professors) (CONDITION in JAIST work with information security))
+
+Who studies Natural Language Processing in JAIST?
+(ROOT (Q_EXPR_PERSON Who) (TOPIC studies Natural Language Processing) (CONDITION in JAIST))
+
+Who studies logic here?
+(ROOT (Q_EXPR_PERSON Who) (TOPIC studies logic) (CONDITION here))
+
+Is there anyone here who studies physics?
+(ROOT (Q_EXPR_EXIST Is there) (TOPIC anyone) (CONDITION here who studies physics))
+
+who is professor in NLP?
+(ROOT (Q_EXPR_PERSON who is) (TOPIC professor in NLP))
+
+who is interested in robotics?
+(ROOT (Q_EXPR_PERSON who is) (TOPIC interested in robotics))
+
+noodle soup restaurant?
+(ROOT (TOPIC noodle soup restaurant))
+
+Where is Viet Nam?
+(ROOT (Q_EXPR_PLACE Where is) (TOPIC Viet Nam))
+
+Is it red or white?
+(ROOT (Q_EXPR_THING Is it) (TOPIC red or white))
+
+where is the library?
+(ROOT (Q_EXPR_PLACE where is) (TOPIC the library))
+
+who is the person in charge of foreign student?
+(ROOT (Q_EXPR_PERSON who is) (TOPIC the person in charge of foreign student))
+
+Who is Osama?
+(ROOT (Q_EXPR_PERSON Who is) (TOPIC Osama))
+
+Who is Michael?
+(ROOT (Q_EXPR_PERSON Who is) (TOPIC Michael))
+
+who is the dean of school of information science of JAIST?
+(ROOT (Q_EXPR_PERSON who is) (TOPIC the dean of school of information science) (CONDITION of JAIST))
+
+where to buy good sushi?
+(ROOT (Q_EXPR_PLACE where to buy) (QUANTIFIER good) (TOPIC sushi))
+
+who works in robotics?
+(ROOT (Q_EXPR_PERSON who) (TOPIC works in robotics))
+
+where is the Jaist house?
+(ROOT (Q_EXPR_PLACE where is) (TOPIC the Jaist house))
+
+Who is dean in CS?
+(ROOT (Q_EXPR_PERSON Who is) (TOPIC dean in CS))
+
+who is the dean?
+(ROOT (Q_EXPR_PERSON who is) (TOPIC the dean))
+
+where is jaist?
+(ROOT (Q_EXPR_PLACE where is) (TOPIC jaist))
+
+Who is dean of Information Science school ?
+(ROOT (Q_EXPR_PERSON Who is) (TOPIC dean of Information Science school))
+
+where is YUUYUU?
+(ROOT (Q_EXPR_PLACE where is) (TOPIC YUUYUU))
+
+best sushi restaurant in ishikawa?
+(ROOT (QUANTIFIER best) (TOPIC sushi restaurant) (CONDITION in ishikawa))
+
+who teaches natural language processing in JAIST?
+(ROOT (Q_EXPR_PERSON who) (TOPIC teaches natural language processing) (CONDITION in JAIST))
+
+what is the best sushi restaurant in ishikawa?
+(ROOT (Q_EXPR_THING what is) (QUANTIFIER the best) (TOPIC sushi restaurant) (CONDITION in ishikawa))
+
+restaurant in jaist?
+(ROOT (TOPIC restaurant) (CONDITION in jaist))
+
+How to buy good sushi?
+(ROOT (Q_EXPR_METHOD How to) (TOPIC buy good sushi))
+
+Where can I eat some pizza in Kanazawa?
+(ROOT (Q_EXPR_PLACE Where can I) (TOPIC eat some pizza) (CONDITION in Kanazawa))
+
+Is JAIST a good place to study?
+(ROOT (Q_EXPR_BOOL Is) (TOPIC JAIST) (NOCLS a good ) (CONDITION place to study))
+
+what's the best place to buy Mexican food near komatsu?
+(ROOT (Q_EXPR_PLACE what 's) (QUANTIFIER the best) (TOPIC place to buy Mexican food) (CONDITION near komatsu))
+
+Mexican food near Komatsu
+(ROOT (TOPIC Mexican food) (CONDITION near komatsu))
+
+where can I buy crepes near kanazawa?
+(ROOT (Q_EXPR_PLACE where can I) (TOPIC buy crepes) (CONDITION near kanazawa))
+
+pizza around Miyatake
+(ROOT (TOPIC pizza) (CONDITION around Miyatake))
+
+ramen around Tsurugi
+(ROOT (TOPIC ramen) (CONDITION around Tsurugi))
+
+coffee in Ishikawa
+(ROOT (TOPIC coffee) (CONDITION in Ishikawa))
+
+beef near Komatsu station
+(ROOT (TOPIC beef) (CONDITION near Komatsu station))
+
+cake in Nomi
+(ROOT (TOPIC cake) (CONDITION in Nomi))

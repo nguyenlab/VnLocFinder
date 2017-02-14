@@ -1,0 +1,42 @@
+.segments {
+  overflow: hidden;
+  width: 60%;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.segments input {
+  width: 80%;
+  height: 40px;
+  background: #ddffdd;
+  font-size: 14pt;
+  color: #65737e;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.segments label,select,button {
+  height: 40px;
+  font-size: 14pt;
+  background: #ffffff;
+  margin-bottom: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.segments label {
+  width: 120px;
+  display: inline-block;
+}
+
+.load-image {
+  width: 200px;
+  height: 200px;
+  display: none;
+}

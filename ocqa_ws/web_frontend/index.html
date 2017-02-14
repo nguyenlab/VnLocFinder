@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Open Campus QA Demo -- Web</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <script src="js/jquery-2.2.3.min.js" language="JavaScript" type="text/javascript"></script>
+    <script src="js/main.js" language="JavaScript" type="text/javascript"></script>
+</head>
+<body>
+    <div class="box">
+      <div class="search-container">
+        <input type="search" id="search" placeholder="Write your question here..." />
+        <button class="icon" id="btnsearch" onclick="send_query(event)"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+
+    <div class="tips">
+        <h3>Tips</h3>
+        <p>
+            Right now, this system can answer questions about JAIST academic staff and about restaurants in Japan.<br />
+            You can ask things like:
+        </p>
+        <ul>
+            <li>Who works with computer graphics in JAIST?</li>
+            <li>Who teaches about games in JAIST?</li>
+            <li>Is there any Indian restaurant near JAIST?</li>
+            <li>Where can I eat pizza in Kanazawa?</li>
+        </ul>
+    </div>
+    
+    <img id="loading-icon" src="images/loading.gif">
+
+    <table id="answers"></table>
+
+    <table id="details-person" class="details">
+        <tr><td>Name</td><td data-attr="name"></td></tr>
+        <tr><td>URI</td><td data-attr="uri"></td></tr>
+        <!--<tr><td>Keywords</td><td id="dtl-person-keywords" data-attr="keywords"></td></tr>-->
+    </table>
+
+    <table id="details-orgplace" class="details">
+        <tr><td class="header">Name</td><td data-attr="name"></td></tr>
+        <tr><td class="header">Native name</td><td data-attr="nativeName"></td></tr>
+        <tr><td class="header">URI</td><td data-attr="uri"></td></tr>
+        <tr><td class="header">Area</td><td data-attr="area"></td></tr>
+        <tr><td class="header">Address</td><td data-attr="address"></td></tr>
+        <tr><td class="header">Native address</td><td data-attr="nativeAddress"></td></tr>
+        <tr><td class="header">GPS position</td><td data-attr="gpsPosition"></td></tr>
+        <tr><td class="header">Phone No.</td><td data-attr="telephoneNumber"></td></tr>
+        <!--<tr><td class="header">Keywords</td><td id="dtl-orgplace-keywords" data-attr="keywords"></td></tr>-->
+    </table>
+</body>
+</html>
