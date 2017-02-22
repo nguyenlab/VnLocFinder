@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 import jp.ac.jaist.nguyenlab.ocqa.Place;
+import jp.ac.jaist.nguyenlab.ocqa.ws.WSClient;
 
 
 public class Answer implements Comparable<Answer> {
@@ -101,7 +102,7 @@ public class Answer implements Comparable<Answer> {
     }
 
     public String getPictureURL() {
-        return pictureURL;
+        return WSClient.BASE_URL.get(WSClient.BaseUrlKey.IMG) + pictureURL;
     }
 
     public void setDistance(float distance) {

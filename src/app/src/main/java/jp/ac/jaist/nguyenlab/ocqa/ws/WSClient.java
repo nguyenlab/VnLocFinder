@@ -12,13 +12,14 @@ import java.util.HashMap;
 
 public class WSClient {
     public enum BaseUrlKey {
-        OCQA, MAPS;
+        OCQA, MAPS, IMG;
     }
-    private static final HashMap<BaseUrlKey, String> BASE_URL;
+    public static final HashMap<BaseUrlKey, String> BASE_URL;
 
     static {
         BASE_URL = new HashMap<>();
         BASE_URL.put(BaseUrlKey.OCQA,"http://s242-097.jaist.ac.jp/vnservice_advisor/qa_serv/"); //"http://150.65.242.105:30000/qa_serv/"); // "http://150.65.242.90:34082/qa_serv/");
+        BASE_URL.put(BaseUrlKey.IMG, "http://s242-097.jaist.ac.jp/");
         BASE_URL.put(BaseUrlKey.MAPS, "https://maps.googleapis.com/maps/api/place/nearbysearch/json");
     }
 
