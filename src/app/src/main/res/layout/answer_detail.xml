@@ -84,7 +84,7 @@ android:layout_height="fill_parent"
         android:id="@+id/map"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        class="jp.ac.jaist.nguyenlab.ocqa.util.ScrollableSupportMapFragment" />
+        class="jp.ac.jaist.nguyenlab.vnlocfinder.util.ScrollableSupportMapFragment" />
 
     <LinearLayout
             android:orientation="horizontal"

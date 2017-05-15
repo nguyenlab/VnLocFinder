@@ -4,7 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion '23.0.1'
     defaultConfig {
-        applicationId "jp.ac.jaist.nguyenlab.ocqa"
+        applicationId "jp.ac.jaist.nguyenlab.vnlocfinder"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1

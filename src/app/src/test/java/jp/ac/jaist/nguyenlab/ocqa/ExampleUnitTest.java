@@ -1,4 +1,4 @@
-package jp.ac.jaist.nguyenlab.ocqa;
+package jp.ac.jaist.nguyenlab.vnlocfinder;
 
 import org.junit.Test;
 

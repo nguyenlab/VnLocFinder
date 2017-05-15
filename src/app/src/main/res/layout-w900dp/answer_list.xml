@@ -9,7 +9,7 @@
     android:divider="?android:attr/dividerHorizontal"
     android:orientation="horizontal"
     android:showDividers="middle"
-    tools:context="jp.ac.jaist.nguyenlab.ocqa.AnswerListActivity">
+    tools:context=".AnswerListActivity">
 
     <!--
     This layout is a two-pane layout for the Answers
@@ -26,7 +26,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         app:layoutManager="LinearLayoutManager"
-        tools:context="jp.ac.jaist.nguyenlab.ocqa.AnswerListActivity"
+        tools:context=".AnswerListActivity"
         tools:listitem="@layout/answer_list_content"
         android:layout_weight="1.26" />
 
@@ -36,7 +36,7 @@
         android:layout_width="@dimen/detail_width"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:context="jp.ac.jaist.nguyenlab.ocqa.AnswerDetailActivity"
+        tools:context=".AnswerDetailActivity"
         tools:ignore="MergeRootFrame">
 
         <android.support.v4.widget.NestedScrollView
