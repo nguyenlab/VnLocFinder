@@ -1,0 +1,44 @@
+I. Set up Mongodb
+	1. Install Mongodb
+	2. Set Environment Path to mongodb for a user phongdk: 	
+		- Open Terminal
+		- Open file .bash_profile: nano ~phongdk/.bash_profile
+		- Enter and Save the path to mongodb folder: /home/phongdk/mongodb/bin
+		- Open another terminal
+		- Check mongo path is available: mongod
+
+II. Run implicitly
+The QA App needs two programs run permanently: database and query_service.py.
+Therefore, we need to create sessions and let it run forever implicitly.
+
+First, create session to start the database:
+	1.  if the session is not existed:
+			Create new session: screen -S rundb
+		else if the session exists: screen -x rundb 
+	2. Point mongo to database path: mongod --port 27717 --dbpath /home/phongdk/database/vn_restaurant
+	3. Detach: Ctrl+A+D
+Second, run a service
+	1. Create new session: screen -S runservice (if the session exists: screen -x runservice)
+	2. Change directory to the location containing query_services.py 
+		cd VN_RES/OCQA_LSTM/ocqa/
+	3. Run a command: python query_services.py 25000 (25000 is a port)
+	4. Detach: Ctrl+A+D
+
+Here are some useful commands when we want to work with sessions.
+	1. Create screen session:
+		screen -S <screen-session-name>
+
+	2. Attach session
+		screen -x <screen-session-name>
+
+	3. Detach: Get out but not terminate session
+		ctrl+A+D
+
+	4. Terminate session
+		Ctrl + C: end process
+		Ctrl + D: terminate session
+
+	5. List all session
+		screen -ls
+	6. Delete a session
+		screen -X -S [session # you want to kill] quit

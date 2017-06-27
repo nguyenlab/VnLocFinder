@@ -12,8 +12,12 @@ The QA App needs two programs run permanently: database and query_service.py.
 Therefore, we need to create sessions and let it run forever implicitly.
 
 First, create session to start the database:
+
+    Delete a session
+		screen -X -S [session # you want to kill] quit
+	screen -r [id] (show screen) 
 	1. Create new session: screen -S rundb (if the session exists: screen -x rundb )
-	2. Point mongo to database path: mongod --port 27717 --dbpath /home/phongdk/database/vn_restaurant
+	2. Point mongo to database path: (port same as in dal/db.py) mongod --port 27717 --dbpath /Users/phongdk/database/vn_restaurant # /home/phongdk/database/vn_restaurant
 	3. Detach: Ctrl+A+D
 Second, run a service
 	1. Create new session: screen -S runservice (if the session exists: screen -x runservice)
